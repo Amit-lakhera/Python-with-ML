@@ -3,7 +3,7 @@ from openai import OpenAI
 from streamlit_chat import message
 
 # ------------------ OpenAI Client ------------------
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="")
 
 # ------------------ API Calling Function ------------------
 def api_calling(prompt):
